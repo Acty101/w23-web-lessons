@@ -1,3 +1,26 @@
 p {
-    color: red;
+    color: black;
+}
+
+.div1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    font-size: medium;
+    margin: auto;
+    display: block;
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100px;
 }
