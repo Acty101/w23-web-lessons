@@ -2,7 +2,7 @@ const creationForm = document.getElementById("input-creation-form");
 const inputCount = document.getElementById("input-count");
 const newInputDiv = document.getElementById("new-inputs");
 const calculateButton = document.getElementById("calculate");
-const results = getElementById("results");
+const results = document.getElementById("results"); //added document.
 
 let newInputs = [];
 creationForm.onsubmit = function (event) {
@@ -15,7 +15,7 @@ creationForm.onsubmit = function (event) {
   // find how many new inputs to create
   const inputsToCreate = parseInt(inputCount.value);
   // create and save new inputs
-  for (let i = 0; i <= inputsToCreate; ++i) {
+  for (let i = 0; i < inputsToCreate; ++i) { //changed <= to < 
     const newInput = document.createElement("input");
     newInput.type = "number";
     newInputs.push(newInput);
@@ -29,7 +29,7 @@ calculateButton.onclick = function (event) {
   }
   let sum = 0;
   for (const input of newInputs) {
-    sum = parseInt(input.value);
+    sum += parseInt(input.value); //changed = to +=
   }
   results.textContent = sum.toString();
 }

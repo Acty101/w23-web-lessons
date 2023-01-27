@@ -4,6 +4,8 @@ console.log(" /\\_/\\");
 console.log("( o.o )");
 console.log(" > ^ <");
 
+console.log(":p")
+
 let catPicture = document.getElementById("cat-picture");
 
 catPicture.onclick = function meow() {
