@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+<<<<<<< HEAD
+  background-color: rgb(165, 133, 89);
+=======
+  background-color: ghostwhite;
+>>>>>>> b7bc4f6d7c8bf2c40a6110c5f63392eae350fa7f
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+}
+
+img {
+  width: 400px;
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: deepskyblue;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+button {
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 400px;
+}
+
+button:hover {
+  background: deepskyblue;
+}
